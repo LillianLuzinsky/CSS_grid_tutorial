@@ -6,7 +6,23 @@
 }
 
 body{
-    background: red;
     width: 100vw;
     height: 100vh;
+}
+
+section {
+    padding: 0 10%;
+}
+
+img{
+    max-width: 100%;
+}
+
+@media screen and (min-width: 732px) {
+
+    section {
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
 }
