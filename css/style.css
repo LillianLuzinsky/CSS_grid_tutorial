@@ -8,21 +8,46 @@
 body{
     width: 100vw;
     height: 100vh;
-}
-
-section {
+    margin: 0 auto;
     padding: 0 10%;
 }
 
 img{
-    max-width: 100%;
+    width: 100%;
 }
 
-@media screen and (min-width: 732px) {
+.box1{
+    background: lightcoral;
+}
 
-    section {
-    padding: 0;
-    max-width: 1200px;
-    margin: 0 auto;
+.box2{
+    background: lightblue;
+}
+
+.box3{
+    background: lightgreen;
+}
+
+
+
+
+
+@media screen and (min-width: 732px) {
+    
+    body{
+        max-width: 1200px;
+        background: pink;
     }
+
+    .editorial img{
+        max-width: 48%;
+    }
+    .first-row, .second-row{
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        background: black;
+        padding-bottom: 3rem;
+    }
+    
 }
